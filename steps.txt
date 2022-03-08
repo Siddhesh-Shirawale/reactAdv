@@ -15,3 +15,7 @@ npx eslint ./.test.js --fix /// will fix problems
     add -> "prettier" in plugins array in .eslintrc.js file
 
     if showing any error in .eslintrc.js file than add -> node: true in "env" object
+
+
+// to compile typescript
+npx tsc src/test.ts

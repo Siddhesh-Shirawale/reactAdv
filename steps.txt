@@ -1,0 +1,17 @@
+// Setting eslint + Prettier
+
+npm i eslint -D
+
+npx eslint --init
+
+npx eslint ./.test.js --fix /// will fix problems
+
+// eslint + prettier:
+
+    npm i -D eslint-plugin-prettier eslint-config-prettier
+
+    add -> "plugin:prettier/recommended" in.eslintrc.js in extends array
+
+    add -> "prettier" in plugins array in .eslintrc.js file
+
+    if showing any error in .eslintrc.js file than add -> node: true in "env" object
